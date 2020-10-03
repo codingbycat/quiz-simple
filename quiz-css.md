@@ -9,7 +9,9 @@ Demo 代码可以新建一个或多个文件（不限），
 ## Q1
 
 下面是 PostCSS 编译后生成的代码，如果你来写源码，你会怎么写。
-（实现方式不限，比如可以用 CSS in JS、Vue style 等方式）
+（实现方式不限，比如可以用 CSS in JS、Vue style 等方式）  
+
+*in the **writing-style.less***
 
 ```css
 .container {
@@ -44,4 +46,21 @@ Demo 代码可以新建一个或多个文件（不限），
 > }
 > ```
 
-答：
+答：公用与抽离，当两个或多个的内容主体大致相同时，只是颜色有所区别应该抽离出相同的部分，如下：
+
+```less
+.content {
+  padding: 10px 15px;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+
+  &.content--bg-red {
+    background-color: red;
+  }
+
+  &.content--bg-green {
+    background-color: green;
+  }
+}
+```

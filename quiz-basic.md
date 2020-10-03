@@ -12,32 +12,32 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
-| Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
-| TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
-| BFF            | 是 ……                |
-| Serverless     | 是 ……                |
-| PWA            | 是 ……                |
-| V8             | 是 ……                |
-| libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
-| Deno           | 是 ……                |
+| npm            | 是 一个NodeJS包管理器 |
+| npx            | 是 临时性的npm的包执行工具 |
+| nvm            | 是 管理npm和nodeJS的版本工具 |
+| nrm            | 没使用过，不了解（查阅资料后了解大致是npm包的源管理工具） |
+| yarn           | 是 新一代NodeJS包管理工具，可替代npm |
+| React          | 是 构建UI的js library |
+| Vue            | 是 构建UI的渐进式js框架 |
+| Flux           | 是 单向数据流的架构思想 |
+| Mobx           | 是 响应式状态管理工具 |
+| MVVM           | 是 双向绑定的架构模式 |
+| TDD            | 不了解 |
+| Jest/Mocha     | 是 前端测试框架 |
+| node_modules   | 是 nodeJS安装包的存放文件夹 |
+| package.json   | 是 描述项目的依赖以及项目信息的文件 |
+| ECMAScript     | 是 一种语言规范 |
+| Electron       | 是 使用Web技术能开发桌面端应用的框架 |
+| Babel          | 是 JS编译工具，转化为可兼容性的代码 |
+| Webpack        | 是 打包工具 |
+| SSR            | 是 服务端渲染技术 |
+| BFF            | 不了解 |
+| Serverless     | 是 无服务器化（可降低成本以及更专注业务逻辑）的解决方案 |
+| PWA            | 是 渐进式网页应用 |
+| V8             | 是 JS引擎 |
+| libuv          | 不了解 |
+| Stack Overflow | 是 关于编程问题的一个问答平台 |
+| Deno           | 是 由NodeJS之父为了解决nodeJS痛点的新一代JS runtime |
 
 ## Q2
 
@@ -49,4 +49,4 @@
 > - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
 > - 掘金、知乎
 
-答：
+答：掘金，知乎，同事

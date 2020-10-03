@@ -2,7 +2,21 @@
 // * 那么你实际是怎么做的？
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
-// 在这里写代码……
+/**
+ * @description 深拷贝函数
+ * @param {object} obj 需要克隆的数据
+ * @return {object}
+ */
+function clone(obj) {
+  if (obj === null || typeof obj !== 'object') return obj;
+
+  const newObj = {};
+  for (const key in obj) {
+    newObj[key] = clone(obj[key]);
+  };
+  return newObj;
+}
+
 
 // * ---------------- 实现的效果：
 

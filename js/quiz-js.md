@@ -18,7 +18,12 @@
 > 面向对象编程，代码逻辑可以内聚。
 > 禁止使用 var，不可变数据用 const 声明，可变数据用 let 声明。
 
-答：
+答：  
+- forEach与map中，map使用于有返回值的函数，而forEach则是遍历某个list，进行函数操作
+- 减少 `==` 运算符，使用`===`代替
+- 在React中，尽可能使用不可变数据
+- 在React中，可以通过`memo（Functional Component）`或 `shouldComponentUpdate（Class Component）`中进行浅比较来优化React渲染性能
+- 
 
 ## 请问以下代码做了什么事情
 
@@ -28,4 +33,4 @@ const getLoglevel = () => {
 };
 ```
 
-答：
+答：声明getLogLevel函数，函数返回浏览器LocalStorage中的logLevel，如果logLevel没有值（`null`或`undefined`，但不包括`''(空字符串)`或`false`）则返回INFO，反之则返回logLevel中的值（字符串）

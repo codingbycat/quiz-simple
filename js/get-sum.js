@@ -7,6 +7,17 @@
  */
 const getSumOfTriple = (arr, start, end) => {
   // 请实现……
+  let totalNum = 0;
+  arr.forEach(item => {
+    const isInStart = !start || item >= start;
+    const isInEnd = !end || item <= end;
+
+    if (isInStart && isInEnd) {
+      if (item % 3 !== 0) return;
+      totalNum += item;
+    };
+  });
+  return totalNum;
 };
 
 // * ---------------- 实现的效果：

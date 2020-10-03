@@ -4,7 +4,7 @@
  * @returns {string} 返回 url 中的 host
  */
 const getHostName = (url) => {
-  // 请实现……
+  return url.replace(/(^http(s)?:\/\/)(.*?)(\/.*)/, '$3')
 };
 
 // * ---------------- 实现的效果：
